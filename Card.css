@@ -1,0 +1,137 @@
+﻿body{
+    background-color: rgb(0, 0, 26);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Container{
+    width: 1200px;
+    height: 500px;
+    background-color:#150024 ;
+    margin-top: 150px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.pessoas{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    transform: translateX(100%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;}
+
+
+.ContainerText{
+    color: whitesmoke;
+    width: 400px;
+    height: 200px;
+    margin: 80px;
+    font-family: 'Varela Round', sans-serif;}
+
+.Subtitulo,.titulo{
+    width: 360px;}
+
+.Subtitulo{
+    font-size: 18px;
+    color: gray;}
+
+.titulo{
+    font-size: 35px;}
+
+.Numeros{
+    margin-left: 22px;
+    margin-top: -40px;}
+
+.Companies,.Templates,.Queries{
+    color: gray;
+    width: 70px;
+    height: 20px;
+    display: inline-block;
+    margin: 50px;
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: 3px;
+    line-height: 30px;}
+
+.Queries::first-line{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    color: whitesmoke;}
+
+.Companies::first-line{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    color: whitesmoke;}
+
+.Templates::first-line{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    color: whitesmoke;}
+
+
+@media screen and (min-width: 1800px){
+    
+.Container{
+        width: 1300px;
+        height: 500px;
+        background-color:#150024 ;
+        margin-top: 150px;
+        position: relative;
+        border-radius: 10px;}
+
+.pessoas{
+       width: 700px;
+       height: 100%;
+       position: absolute;
+       transform: translateX(100%);
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;}
+}  
+
+@media screen and (max-width: 1200px) {
+
+body{
+        background-color: rgb(0, 0, 26);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        
+       
+    }
+
+.Container{
+        width: 400px;
+        height: 1000px;
+        background-color:#150024 ;
+        margin-top: 150px;
+        position: relative;
+        border-radius: 10px;   
+    }
+
+.ContainerText{
+        color: whitesmoke;
+        width: 400px;
+        height: 200px;
+        margin: 20px;
+        text-align: center;
+        margin-top: 350px;
+        font-family: 'Varela Round', sans-serif;}
+
+.pessoas{
+       width: 400px;
+       height: 300px;
+       position: absolute;
+       border-top-right-radius: 10px;
+       border-top-left-radius: 10px;
+       transform: translateX(0%); }
+
+.Numeros{
+        margin-left: -30px;
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    }  
